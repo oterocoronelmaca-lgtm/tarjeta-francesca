@@ -293,9 +293,9 @@ section{
 
     position:absolute;
 
-    width:240px;
+    width:150px;
 
-    top:200px;
+    top:90px;
 
     left:50%;
 
@@ -319,11 +319,11 @@ section{
 
     position:absolute;
 
-    width:360px;
+    width:210px;
 
-    top:90px;
+    top:5px;
 
-    left:-185px;
+    left:-105px;
 
     z-index:1;
 
@@ -333,11 +333,11 @@ section{
 
     position:absolute;
 
-    width:360px;
+    width:200px;
 
-    top:220px;
+    top:250px;
 
-    right:-220px;
+    right:-105px;
 
     z-index:1;
 
@@ -370,18 +370,17 @@ section{
 }
 
 .hero h1{
-
+    
     font-size:7rem;
-
-    color:white;
-
-    font-weight:400;
-
-    letter-spacing:2px;
-
-    text-shadow:
-
-    0 0 18px rgba(255,255,255,.15);
+    
+    text-align:center;
+    
+    width:100%;
+    
+    line-height:1;
+    
+    transform:translateX(-8px);
+}
 
 }
 
@@ -1416,14 +1415,14 @@ footer p{
     .corona{
 
     width:150px;
-    top:70px;
+    top:95px;
 
     }
 
     .bola-izq{
 
         width:210px;
-        top:40px;
+        top:10px;
         left:-120px;
 
     }
@@ -1432,7 +1431,7 @@ footer p{
     .bola-der{
 
     width:200px;
-    top:190px;
+    top:250px;
     right:-120px;
 
     }
@@ -1448,11 +1447,12 @@ footer p{
 
 
     .hero h1{
-
     font-size:3.2rem;
     text-align:center;
-
-    }
+    width:100%;
+    line-height:1;
+    transform:translateX(-4px);
+    }   
 
 
     .fecha-hero{
