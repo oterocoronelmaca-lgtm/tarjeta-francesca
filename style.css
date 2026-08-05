@@ -1415,11 +1415,10 @@ footer p{
 
     .corona{
 
-        width:150px;
-        top:120px;
+    width:150px;
+    top:155px;
 
     }
-
 
     .bola-izq{
 
@@ -1432,9 +1431,9 @@ footer p{
 
     .bola-der{
 
-        width:210px;
-        top:190px;
-        right:-130px;
+    width:200px;
+    top:320px;
+    right:-120px;
 
     }
 
@@ -1450,8 +1449,8 @@ footer p{
 
     .hero h1{
 
-        font-size:3.8rem;
-        text-align:center;
+    font-size:3.2rem;
+    text-align:center;
 
     }
 
