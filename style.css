@@ -1394,3 +1394,74 @@ footer p{
     }
 
 }
+/* ==========================================================
+                    AJUSTES CELULAR HERO
+========================================================== */
+
+@media (max-width:600px){
+
+    .hero{
+        padding:40px 15px;
+        min-height:100svh;
+    }
+
+
+    .hero-content{
+
+        margin-top:80px;
+
+    }
+
+
+    .corona{
+
+        width:150px;
+        top:120px;
+
+    }
+
+
+    .bola-izq{
+
+        width:210px;
+        top:80px;
+        left:-120px;
+
+    }
+
+
+    .bola-der{
+
+        width:210px;
+        top:190px;
+        right:-130px;
+
+    }
+
+
+    .misxv{
+
+        margin-top:120px;
+        font-size:.85rem;
+        letter-spacing:7px;
+
+    }
+
+
+    .hero h1{
+
+        font-size:3.8rem;
+        text-align:center;
+
+    }
+
+
+    .fecha-hero{
+
+        font-size:.75rem;
+        letter-spacing:5px;
+        text-align:center;
+
+    }
+
+}
