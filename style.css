@@ -1416,14 +1416,14 @@ footer p{
     .corona{
 
     width:150px;
-    top:155px;
+    top:70px;
 
     }
 
     .bola-izq{
 
         width:210px;
-        top:80px;
+        top:40px;
         left:-120px;
 
     }
@@ -1432,7 +1432,7 @@ footer p{
     .bola-der{
 
     width:200px;
-    top:320px;
+    top:190px;
     right:-120px;
 
     }
