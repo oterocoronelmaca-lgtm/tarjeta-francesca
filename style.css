@@ -1312,6 +1312,52 @@ footer p{
         bottom:20px;
 
     }
+        .hero{
+        min-height:100vh;
+        padding:20px;
+        overflow:hidden;
+    }
+
+    .hero-content{
+        margin-top:10px;
+        z-index:10;
+    }
+
+    .corona{
+        width:150px;
+        top:105px;
+        left:50%;
+        transform:translateX(-50%);
+    }
+
+    .misxv{
+        margin-top:135px;
+        font-size:.9rem;
+        letter-spacing:8px;
+    }
+
+    .hero h1{
+        font-size:4.8rem;
+        line-height:.95;
+        margin-top:8px;
+    }
+
+    .fecha-hero{
+        font-size:.9rem;
+        letter-spacing:6px;
+    }
+
+    .bola-izq{
+        width:210px;
+        top:45px;
+        left:-115px;
+    }
+
+    .bola-der{
+        width:210px;
+        top:290px;
+        right:-115px;
+    }
 
 }
 /* ==========================================================
