@@ -1310,6 +1310,8 @@ footer p{
         bottom:20px;
 
     }
+    /* HERO */
+
     .hero{
         min-height:100vh;
         padding:20px;
@@ -1317,39 +1319,45 @@ footer p{
     }
 
     .hero-content{
-        margin-top:-95px;
+        margin-top:-35px;
+        z-index:10;
     }
 
     .corona{
-        width:125px;
-        top:175px;
+        width:120px;
+        top:185px;
+        left:50%;
+        transform:translateX(-50%);
     }
 
     .misxv{
-        margin-top:150px;
+        margin-top:170px;
         font-size:.9rem;
         letter-spacing:6px;
     }
 
     .hero h1{
-        font-size:4.2rem;
-        margin-top:2px;
-    }
-
-    .bola-izq{
-        width:160px;
-        top:120px;
-        left:-85px;
-    }
-
-    .bola-der{
-        width:160px;
-        top:395px;
-        right:-85px;
+        font-size:4.9rem;
+        line-height:.92;
+        margin-top:4px;
     }
 
     .fecha-hero{
-        margin-top:18px;
+        margin-top:14px;
+        font-size:.88rem;
+        letter-spacing:5px;
+    }
+
+    .bola-izq{
+        width:170px;
+        top:120px;
+        left:-90px;
+    }
+
+    .bola-der{
+        width:170px;
+        top:390px;
+        right:-90px;
     }
 
 }
