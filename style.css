@@ -276,16 +276,16 @@ section{
 .hero-content{
 
     position:relative;
-
+    
     z-index:20;
-
+    
     display:flex;
-
+    
     flex-direction:column;
-
+    
     align-items:center;
 
-	margin-top:120px;
+    margin-top:40px;
 
 }
 
@@ -293,9 +293,9 @@ section{
 
     position:absolute;
 
-    width:150px;
+    width:180px;
 
-    top:90px;
+    top:105px;
 
     left:50%;
 
@@ -317,13 +317,11 @@ section{
 
 .bola-izq{
 
-    position:absolute;
+    width:230px;
 
-    width:210px;
+    top:20px;
 
-    top:5px;
-
-    left:-105px;
+    left:-120px;
 
     z-index:1;
 
@@ -331,13 +329,11 @@ section{
 
 .bola-der{
 
-    position:absolute;
+    width:230px;
 
-    width:200px;
+    top:270px;
 
-    top:250px;
-
-    right:-105px;
+    right:-120px;
 
     z-index:1;
 
@@ -359,11 +355,11 @@ section{
 
 .misxv{
 
-    margin-top:185px;
+    margin-top:135px;
 
-    letter-spacing:10px;
+    letter-spacing:8px;
 
-    font-size:1rem;
+    font-size:.95rem;
 
     color:#E6D7E2;
 
@@ -380,7 +376,6 @@ section{
     line-height:1;
     
     transform:translateX(-8px);
-}
 
 }
 
@@ -1389,77 +1384,6 @@ footer p{
     to{
 
         transform:translateX(calc(-280px * 6));
-
-    }
-
-}
-/* ==========================================================
-                    AJUSTES CELULAR HERO
-========================================================== */
-
-@media (max-width:600px){
-
-    .hero{
-        padding:40px 15px;
-        min-height:100svh;
-    }
-
-
-    .hero-content{
-
-        margin-top:80px;
-
-    }
-
-
-    .corona{
-
-    width:150px;
-    top:95px;
-
-    }
-
-    .bola-izq{
-
-        width:210px;
-        top:10px;
-        left:-120px;
-
-    }
-
-
-    .bola-der{
-
-    width:200px;
-    top:250px;
-    right:-120px;
-
-    }
-
-
-    .misxv{
-
-        margin-top:120px;
-        font-size:.85rem;
-        letter-spacing:7px;
-
-    }
-
-
-    .hero h1{
-    font-size:3.2rem;
-    text-align:center;
-    width:100%;
-    line-height:1;
-    transform:translateX(-4px);
-    }   
-
-
-    .fecha-hero{
-
-        font-size:.75rem;
-        letter-spacing:5px;
-        text-align:center;
 
     }
 
