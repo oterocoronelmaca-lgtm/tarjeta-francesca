@@ -1324,22 +1324,25 @@ footer p{
     }
 
     .corona{
-        width:120px;
-        top:180px;
+        width:110px;
+        top:260px;
         left:50%;
         transform:translateX(-50%);
     }
 
+
     .misxv{
-        margin-top:190px;
-        font-size:.9rem;
-        letter-spacing:6px;
+        margin-top:130px;
+        font-size:.85rem;
+        letter-spacing:7px;
+        margin-bottom:25px;
     }
 
+
     .hero h1{
-        font-size:4.9rem;
-        line-height:.92;
-        margin-top:4px;
+        font-size:3.8rem;
+        line-height:.95;
+        margin-top:0;
     }
 
     .fecha-hero{
