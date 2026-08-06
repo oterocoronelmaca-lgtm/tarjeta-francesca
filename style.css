@@ -1325,13 +1325,13 @@ footer p{
 
     .corona{
         width:120px;
-        top:185px;
+        top:180px;
         left:50%;
         transform:translateX(-50%);
     }
 
     .misxv{
-        margin-top:170px;
+        margin-top:180px;
         font-size:.9rem;
         letter-spacing:6px;
     }
@@ -1342,8 +1342,10 @@ footer p{
         margin-top:4px;
     }
 
-    .fecha-hero{
-        margin-top:18px;
+      .fecha-hero{
+        font-size:.85rem;
+        letter-spacing:4px;
+        margin-top:10px;
     }
 
     .bola-izq{
