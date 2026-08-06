@@ -1232,82 +1232,124 @@ footer p{
 @media (max-width:768px){
 
     h2{
+
         font-size:2.2rem;
+
+    }
+
+    .hero h1{
+
+        font-size:4rem;
+
+    }
+
+    .frase{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
     }
 
     .contador-grid{
+
         grid-template-columns:repeat(2,1fr);
+
     }
 
     .card-tiempo{
+
         padding:25px 15px;
+
     }
 
     .card-tiempo h3{
+
         font-size:2.3rem;
+
+    }
+
+    .photo-card{
+
+        width:200px;
+
+        height:270px;
+
+    }
+
+    .slide-track{
+
+        width:calc(230px * 12);
+
+    }
+
+    .vinilo{
+
+        width:220px;
+
+        height:220px;
+
     }
 
     .card-ubicacion,
     .card-dress,
     .alias-card{
+
         padding:30px 22px;
+
     }
 
     #btnTop{
+
         width:48px;
+
         height:48px;
+
         right:20px;
+
         bottom:20px;
+
     }
-
-    /* HERO */
-
     .hero{
         min-height:100vh;
-        padding:0 20px;
+        padding:20px;
         overflow:hidden;
     }
 
     .hero-content{
-        margin-top:-110px;
-        z-index:10;
+        margin-top:-95px;
     }
 
     .corona{
-        width:115px;
-        top:65px;
-        left:50%;
-        transform:translateX(-50%);
+        width:125px;
+        top:175px;
     }
 
     .misxv{
-        margin-top:100px;
+        margin-top:150px;
         font-size:.9rem;
         letter-spacing:6px;
     }
 
     .hero h1{
         font-size:4.2rem;
-        line-height:.9;
-        margin-top:5px;
-    }
-
-    .fecha-hero{
-        font-size:.85rem;
-        letter-spacing:4px;
-        margin-top:10px;
+        margin-top:2px;
     }
 
     .bola-izq{
-        width:150px;
-        left:-75px;
-        top:35px;
+        width:160px;
+        top:120px;
+        left:-85px;
     }
 
     .bola-der{
-        width:150px;
-        right:-75px;
-        top:220px;
+        width:160px;
+        top:395px;
+        right:-85px;
+    }
+
+    .fecha-hero{
+        margin-top:18px;
     }
 
 }
