@@ -276,16 +276,16 @@ section{
 .hero-content{
 
     position:relative;
-    
+
     z-index:20;
-    
+
     display:flex;
-    
+
     flex-direction:column;
-    
+
     align-items:center;
 
-    margin-top:40px;
+    margin-top:0;
 
 }
 
@@ -293,9 +293,9 @@ section{
 
     position:absolute;
 
-    width:180px;
+    width:130px;
 
-    top:105px;
+    top:70px;
 
     left:50%;
 
@@ -317,25 +317,21 @@ section{
 
 .bola-izq{
 
-    width:230px;
+    width:180px;
 
-    top:20px;
+    top:30px;
 
-    left:-120px;
-
-    z-index:1;
+    left:-90px;
 
 }
 
 .bola-der{
 
-    width:230px;
+    width:180px;
 
-    top:270px;
+    top:260px;
 
-    right:-120px;
-
-    z-index:1;
+    right:-90px;
 
 }
 
@@ -355,7 +351,7 @@ section{
 
 .misxv{
 
-    margin-top:135px;
+    margin-top:110px;
 
     letter-spacing:8px;
 
@@ -366,16 +362,18 @@ section{
 }
 
 .hero h1{
-    
-    font-size:7rem;
-    
+
+    font-size:5.5rem;
+
     text-align:center;
-    
+
     width:100%;
-    
-    line-height:1;
-    
-    transform:translateX(-8px);
+
+    line-height:.9;
+
+    transform:none;
+
+    margin-top:8px;
 
 }
 
@@ -1312,7 +1310,7 @@ footer p{
         bottom:20px;
 
     }
-        .hero{
+    .hero{
         min-height:100vh;
         padding:20px;
         overflow:hidden;
@@ -1357,6 +1355,43 @@ footer p{
         width:210px;
         top:290px;
         right:-115px;
+    }
+        .hero-content{
+        margin-top:-70px;
+    }
+
+    .corona{
+        width:145px;
+        top:115px;
+    }
+
+    .misxv{
+        margin-top:95px;
+        font-size:.9rem;
+        letter-spacing:6px;
+    }
+
+    .hero h1{
+        font-size:4.8rem;
+        line-height:.95;
+        transform:none;
+    }
+
+    .bola-izq{
+        width:175px;
+        top:60px;
+        left:-85px;
+    }
+
+    .bola-der{
+        width:175px;
+        top:320px;
+        right:-85px;
+    }
+
+    .fecha-hero{
+        letter-spacing:5px;
+        font-size:.9rem;
     }
 
 }
