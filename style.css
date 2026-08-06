@@ -1334,10 +1334,11 @@ footer p{
 
 
     .hero h1{
-        font-size:3rem;
+        font-size:3.2rem;
         line-height:.95;
         margin-top:0;
         text-align:center;
+        color:white; 
     }
 
     .fecha-hero{
