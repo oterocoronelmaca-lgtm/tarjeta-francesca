@@ -1318,12 +1318,10 @@ footer p{
     }
 
     .corona{
-
         width:110px;
-        top:260px;
+        top:240px;
         left:50%;
         transform:translateX(-50%);
-
     }
 
 
@@ -1335,10 +1333,11 @@ footer p{
     }
 
 
-    .hero h1{ 
-        font-size:4.9rem; 
-        line-height:.92; 
-        margin-top:4px; 
+    .hero h1{
+        font-size:4rem;
+        line-height:.95;
+        margin-top:0;
+        text-align:center;
     }
 
     .fecha-hero{
