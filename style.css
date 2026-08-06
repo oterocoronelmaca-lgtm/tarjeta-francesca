@@ -1358,9 +1358,6 @@ footer p{
         top:390px;
         right:-90px;
     }
-    body{
-        background:red !important;
-    }
 
 }
 /* ==========================================================
@@ -1437,3 +1434,6 @@ footer p{
     }
 
 }
+body{
+        background:red !important;
+    }
