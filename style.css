@@ -141,6 +141,16 @@ h1,h2,h3{
 
 }
 
+/* TITULOS PRINCIPALES */
+
+    h2,
+    .detalle,
+    .misxv{
+
+        -webkit-text-stroke:0.25px currentColor;
+
+    }
+
 h2{
 
     font-size:4rem;
@@ -595,6 +605,8 @@ section{
 
     margin-bottom:20px;
 
+    color:#4B1535;
+
 }
 
 .alias-card{
@@ -677,7 +689,7 @@ section{
 
     font-weight:500;
 
-    color:#B78B9B;
+    color:#391b26;
 
     margin-bottom:10px;
 
@@ -1335,10 +1347,10 @@ footer p{
 
     .hero h1{
         font-size:3.2rem;
-        line-height:.95;
+        -height:.95;
         margin-top:0;
-        text-align:center;
-        color:white; 
+        -align:center;
+        :white;
     }
 
     .fecha-hero{
