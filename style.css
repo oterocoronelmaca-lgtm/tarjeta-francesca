@@ -147,9 +147,7 @@ h1,h2,h3{
     .detalle,
     .misxv{
 
-        color:#4B1535;
-        font-weight:600;
-        -webkit-text-stroke:0.8px #4B1535;
+        -webkit-text-stroke:1px currentColor;
 
     }
 
